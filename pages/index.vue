@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     <div class="row darknav text-center">
-      <div class="col-md-9" style="margin-top:15em; margin-bottom:22em">
+      <div class="col-md-6" style="margin-top:15em; margin-bottom:20em">
         <h3 class="animate__animated animate__zoomIn"> Hi, I'm Jackline Gitari </h3>
         <h1 class="animate__animated secondHeader"> Full-Stack Software engineer. </h1>
         <h5>Multidisciplinary designer who hacks at, makes and occasionally breaks things.</h5>
       </div>
-      <div class="col-md-3">
-        <img src="~/assets/me.jpg" alt="" srcset="" width="100%" height="60%">
+      <div class="col-md-6">
+        <img src="~/assets/me3.jpg" alt="" srcset="" width="90%" height="100%">
       </div>
     </div>
     <div class="row coding mb-5  mt-5 justify-content-center">
@@ -108,10 +108,19 @@
     <div class="darknav pt-3 pb-3 text-center">
       <h6>
         Find me at 
-        <a href="https://www.linkedin.com/in/jackline-muthoni-gitari">linkedin</a>
-        <a href="https://github.com/jackiegitari1234">Github</a>
-        <a href="#4">Twitter</a>
-        <a href="#4">Whatapp</a>
+        <a href="https://www.linkedin.com/in/jackline-muthoni-gitari">
+          <font-awesome-icon :icon="['fab', 'linkedin']"/>
+        </a>
+        
+        <a href="https://github.com/jackiegitari1234">
+          <font-awesome-icon :icon="['fab', 'github']"/>
+        </a>
+        <a href="#4">
+          <font-awesome-icon :icon="['fab', 'twitter']"/>
+        </a> 
+        <a href="#4">
+          <font-awesome-icon :icon="['fab', 'whatsapp']"/>
+        </a>
       </h6>
     </div>
 </div>
@@ -130,7 +139,7 @@ export default {
 
 <style>
 .darknav{
-  background-color: rgb(12, 12, 12);
+  background-color: #000000;
   color: rgb(253, 252, 252);
 }
 .animated{
