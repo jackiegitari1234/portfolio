@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <div class="row darknav page text-center">
-      <div class="col-md-6" style="margin-top:15em;">
+    <div class="row darknav text-center">
+      <div class="col-md-6" style="margin-top:15em; margin-bottom:20em">
         <h3 class="animate__animated animate__zoomIn"> Hi, I'm Jackline Gitari </h3>
         <h1 class="animate__animated secondHeader"> Full-Stack Software engineer. </h1>
         <h5>Multidisciplinary designer who hacks at, makes and occasionally breaks things.</h5>
       </div>
-      <div class="col-md-6 justify-content-end"> 
-        <img src="~/assets/me3.jpg" alt="" srcset="" width="70%" height="100%">
+      <div class="col-md-6">
+        <img src="~/assets/me3.jpg" alt="" srcset="" width="90%" height="100%">
       </div>
     </div>
-    <div class="row coding mb-5  justify-content-center" style="margin-top:100%">
+    <div class="row coding mb-5  mt-5 justify-content-center">
       <div class="col-md-8  mt-5 mb-5 pt-4 pb-2 text-center text">
         <h5>Who is Jackline Gitari?</h5>
         <ul>
@@ -138,16 +138,6 @@ export default {
 </script>
 
 <style>
-.page{
-  position:absolute;
-  width: 100%;
-  height: 85% !important;
-  padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-}
 .darknav{
   background-color: #000000;
   color: rgb(253, 252, 252);
