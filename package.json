@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "scripts": {
-    "deploy": "push-dir --dir=dist --branch=master --cleanup",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
