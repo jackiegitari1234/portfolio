@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     <div class="row darknav text-center">
-      <div class="col-md-6" style="margin-top:15em; margin-bottom:20em">
-        <h3 class="animate__animated animate__zoomIn"> Hi, I'm Jackline Gitari </h3>
-        <h1 class="animate__animated secondHeader"> Full-Stack Software engineer. </h1>
-        <h5>Multidisciplinary designer who hacks at, makes and occasionally breaks things.</h5>
+      <div class="col-md-6" style="margin-top:15em; margin-bottom:17em">
+        <h3 class="secondHeader"> Hi, I'm Jackline Gitari </h3>
+        <h1 class="secondHeader2"> Full-Stack Software engineer. </h1>
+        <h5 class="secondHeader3">Multidisciplinary designer who hacks at, makes and occasionally breaks things.</h5>
       </div>
       <div class="col-md-6">
-        <img src="~/assets/me3.jpg" alt="" srcset="" width="90%" height="100%">
+        <img src="~/assets/me3.jpg" alt="" srcset="" width="70%" height="100%">
       </div>
     </div>
     <div class="row coding mb-5  mt-5 justify-content-center">
@@ -29,7 +29,7 @@
     <div class="backend"> 
       <div class="row mb-5 mt-5 justify-content-center" >
         <div class="col-md-12 pt-5 pb-5 text-center">
-          <h5 class="animate__animated animate__fadeInBottomRight">Programming Languages / Frameworks I have used </h5>
+          <h5 class=" animate__fadeInBottomRight">Programming Languages / Frameworks I have used </h5>
         </div>
         <div class="col-md-3  languages">
           <div class="card" style="width: 18rem;">
@@ -149,6 +149,14 @@ export default {
 .secondHeader {
   animation: fadeIn; 
   animation-duration: 2s; 
+}
+.secondHeader2 {
+  animation: fadeIn; 
+  animation-duration: 3s; 
+}
+.secondHeader3 {
+  animation: fadeIn; 
+  animation-duration: 5s; 
 }
 .languages {
   transition: transform .2s;
