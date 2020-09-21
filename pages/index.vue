@@ -151,7 +151,7 @@ export default {
   animation-duration: 2s; 
 }
 .secondHeader2 {
-  animation: fadeIn; 
+  animation: slideInUp; 
   animation-duration: 3s; 
 }
 .secondHeader3 {
