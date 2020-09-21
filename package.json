@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "deploy": "push-dir --dir=dist --branch=master --cleanup",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "animate.css": "^4.1.1",
+    "bootstrap-vue": "^2.17.3",
+    "nuxt": "^2.14.5"
+  },
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
