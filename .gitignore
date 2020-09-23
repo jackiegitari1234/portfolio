@@ -32,4 +32,3 @@ cypress/videos
 cypress/screenshots
 
 .project
-*.mp4
