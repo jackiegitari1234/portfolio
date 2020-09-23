@@ -8,7 +8,7 @@
           class="secondHeader3"
         >Multidisciplinary designer who hacks at, makes and occasionally breaks things.</h5>
         <video width="320" height="240"  autoplay="autoplay" muted>
-          <source src="~/assets/vid2.mp4" type=video/mp4>
+          <source src="~/assets/vidd2.mp4" type=video/mp4>
         </video>
       </div>
       <div class="col-md-6">
