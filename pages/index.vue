@@ -17,211 +17,132 @@
 
     <!-- other devices -->
     <div class="d-none d-md-block">
-		<div class="row darknav text-center pt-5 ">
-			<div class="col-md-5 mt-5 pt-5">
-				<h4 class="secondHeader pt-3">Hi, I'm Jackline Gitari</h4>
-				<h3 class="secondHeader2">Full-Stack Software engineer.</h3>
-				<p class="secondHeader4">
-					Multidisciplinary designer who hacks at, makes and occasionally
-					breaks things.
-				</p>
-				<div class="ml-5 mt-5">
-					<video width="320" height="240" autoplay="autoplay" muted>
-					<source src="~/assets/vidd2.mp4" type=video/mp4>
-					</video>
-				</div>
-			</div>
-			<div class="col-md-6 justify-content-end">
-				<img src="~/assets/me3.jpg" width="70%" height="100%" />
-			</div>
-		</div>
+      <div class="row darknav text-center pt-5 ">
+        <div class="col-md-5 mt-5 pt-5">
+          <h4 class="secondHeader pt-3">Hi, I'm Jackline Gitari</h4>
+          <h2 class="secondHeader2">Full-Stack Software engineer.</h2>
+          <div class="ml-5 mt-5">
+            <video width="320" height="240" autoplay="autoplay" muted>
+            <source src="~/assets/vidd2.mp4" type=video/mp4>
+            </video>
+          </div>
+        </div>
+        <div class="col-md-6 justify-content-end">
+          <img src="~/assets/me3.jpg" width="70%" height="100%" />
+        </div>
+      </div>
     </div>
 
-    <div class="row coding mb-5 mt-3 justify-content-center">
-      <div class="col-8 mt-5 mb-3 pt-4 pb-2 text-center text">
-        <h5>Who is Jackline Gitari?</h5>
-        
-            Software Developer with experience in Java, Java Spring Boot, PHP
-            and Angular 7+, CSS 3 and HTML 5.
+    <div class="row coding p-2 ">
+      <div class="col-md-4 p-5 ml-5">
+        <div class="contained ml-5 mt-5">
+          <div class="box p-2" style="background: rgb(4, 4, 71);">
+          </div>
+          <div class="box stack-top p-2" style="background: rgb(28, 28, 214);">
+          </div>
+          <div class="box stack-top2 p-2 text-center" style="background: rgb(60, 60, 194);">
+            <br><br><br>
+            About <br> Jackline Gitari
+          </div>
+        </div>
+      </div>
+      <div class="col-6 mt-5 mb-3 pt-4 pb-2 text-left text">
+            Software Developer with experience in Java, Java Spring Boot, PHP and Angular, CSS 3 and HTML 5.
           <br /><br />
-          Competent in Software development life cycle.
-          <br /><br />
-          
             Graduate of Bachelor of science (Information and communication
             technology).
-          
           <br /><br />
-          
-            Advocate for Agile Scrum Methodology – I understand how scrum
-            reduces risk and gives predictability to the software life cycle.
-          
-          <br /><br />
-          
             I have a lot of experience liaising / working with remote teams
             using Agile Methodology and collaboration tools.
-          
           <br /><br />
-          
-            I enjoy working in multi-cultural environments and am used to
-            liaising with Europeans in International companies.
-          
-          <br /><br>
           Supporter of Women In Technology
+          <hr >
         
+        <div class="row coding skills justify-content-center"> 
+          <div class="col-md-12 text-start"> <h5 class="lists">Skills:</h5></div>
+          <div class="col-md-6">
+            <i > 
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Java <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> PHP <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Spring Boot <br/>
+            </i>
+            <i >
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Laravel <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> VueJS <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Angular <br/>
+            </i>
+          </div>
+          <div class="col-md-6">
+            <i >
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Git <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Amazon web services <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Postgres & MySQL <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Postgres & MySQL <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Bootstrap <br/>
+              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Material Design <br/>
+              
+            </i>
+          </div>
+        </div>
       </div>
     </div>
-    <hr />
-
-    <div class="backend">
-      <div class="row  mt-5 justify-content-center">
-        <div class="col-12 pt-3 pb-5 text-center">
-          <h5 class="animate__fadeInBottomRight">
-            Programming Languages / Frameworks I have used
+    <div class="projects">
+      <div class="row  justify-content-center">
+        <div class="col-12  pb-5 pt-5 text-center">
+          <h5 class="animate__fadeInBottomRight lists">
+            Major Projects :-
           </h5>
         </div>
-        <div class="col-md-3 col-8 languages">
-          <div class="card" >
-            <div class="card-body">
-              <br />
-              <img
-                src="~/assets/lv.png"
-                alt
-                srcset
-                width="100%"
-                height="100%"
-              />
-              <br />
-              <br />
-              <hr />
-              <p class="card-text">
-                Laravel is a web application framework with expressive, elegant
-                syntax.
-              </p>
-              <a
-                href="https://laravel.com/docs/8.x"
-                class="btn btn-outline-primary"
-                >Go to Documentation</a
-              >
+        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-5 p-5">
+          <div class="row">
+            <div class="col-md-4">
+              <br><br>
+              <h5> EnigmaScore Kenya </h5>
+              Built using Spring Java and AngularJS <br>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-5 sites ">
+              <img class="image" src="~/assets/enigma.png" width="100%" height="100%" />
+              <div class="overlay">
+                <span class="text2">
+                  <a href="https://enigmascore.com/home" > Visit Website</a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-8 languages">
-          <div class="card" >
-            <div class="card-body">
-              <br />
-              <img
-                src="~/assets/vue.jpeg"
-                alt
-                srcset
-                width="80%"
-                height="80%"
-              />
-              <br />
-              <hr />
-              <p class="card-text">
-                Vue is designed from the ground up to be incrementally
-                adoptable.
-              </p>
-              <a
-                href="https://vuejs.org/v2/guide/"
-                class="btn btn-outline-primary"
-                >Go to Documentation</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-8 languages">
-          <div class="card" >
-            <div class="card-body">
-              <br />
-              <img
-                src="~/assets/angular.png"
-                alt
-                srcset
-                width="40%"
-                height="40%"
-              />
-              <br />
-              <br />
-              <hr />
-              <p class="card-text">
-                Angular is used for creating efficient and sophisticated
-                single-page apps.
-              </p>
-              <a href="https://angular.io/docs" class="btn btn-outline-primary"
-                >Go to Documentation</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="row pb-5 pt-5 justify-content-center">
-        <div class="col-md-3 col-8 languages">
-          <div class="card" >
-            <div class="card-body">
-              <img
-                src="~/assets/java.png"
-                alt
-                srcset
-                width="100%"
-                height="100%"
-              />
-              <hr />
-              <p class="card-text">
-                Use the rich set of code samples, tutorials, developer guides,
-                API documentation, and more to quickly develop your prototype.
-              </p>
-              <a
-                href="https://docs.oracle.com/en/java/"
-                class="btn btn-outline-primary"
-                >Go to Documentation</a
-              >
+        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-3 p-5">
+          <div class="row">
+            <div class="col-md-4">
+              <br><br>
+              <h5> Portfolio </h5>
+              Built using NuxtJS - A VUEJS framework <br>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-5 sites ">
+              <img class="image" src="~/assets/mee.png" width="100%" height="100%" />
+              <div class="overlay">
+                <span class="text2">
+                  <a href="http://jackline.herokuapp.com/" > Visit Website</a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-8 languages">
-          <div class="card" >
-            <div class="card-body">
-              <img
-                src="~/assets/python.jpeg"
-                alt
-                srcset
-                width="75%"
-                height="75%"
-              />
-              <hr />
-              <p class="card-text">
-                Python is an easy to learn, powerful programming language.
-              </p>
-              <a
-                href="https://docs.python.org/3/"
-                class="btn btn-outline-primary"
-                >Go to Documentation</a
-              >
+
+        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-3 p-5">
+            <div class="row">
+            <div class="col-md-4">
+              <br><br>
+              <h5> Work in Progress </h5>
+              checkout my github account for more projects <br>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-8 languages">
-          <div class="card" >
-            <div class="card-body">
-              <img
-                src="~/assets/php2.png"
-                alt
-                srcset
-                width="100%"
-                height="100%"
-              />
-              <hr />
-              <p class="card-text">
-                <br />PHP is a widely-used open source general-purpose scripting
-                language
-              </p>
-              <a
-                href="https://www.php.net/docs.php"
-                class="btn btn-outline-primary"
-                >Go to Documentation</a
-              >
+            <div class="col-md-5"></div>
+            <div class="col-md-3  ">
+              <a href="https://github.com/jackiegitari1234" > To Github</a>
+              
+              <br>
             </div>
           </div>
         </div>
@@ -238,10 +159,7 @@
         <a href="https://github.com/jackiegitari1234">
           <font-awesome-icon :icon="['fab', 'github']" />
         </a>
-        <a href="#4">
-          <font-awesome-icon :icon="['fab', 'twitter']" />
-        </a>
-        <a href="#4">
+        <a href="https://wa.me/254707802693">
           <font-awesome-icon :icon="['fab', 'whatsapp']" />
         </a>
       </h6>
@@ -276,6 +194,20 @@ export default {
   color: rgb(253, 252, 252);
   height: 85vh;
 }
+.coding{
+  background-color: rgb(24, 22, 22);
+  /* color:rgb(148, 142, 142); */
+}
+.myprojects{
+  background-color: rgb(24, 22, 22);
+  border-radius: 0.5em;
+  padding: 1em;
+  color: white;
+}
+.skills{
+  color: #ffff;
+  padding-top: 3em;
+}
 .footer{
   background-color: #000000;
   color: rgb(253, 252, 252);
@@ -301,26 +233,46 @@ export default {
   animation-duration: 5s;
   font-size: 15px;
 }
-.languages {
+.sites {
   transition: transform 0.2s;
-  background-color: hsl(hue, saturation, lightness);
-  border-radius: 3em;
+  border-radius: 1em;
   margin-bottom: 1em;
+  background-color: rgb(24, 22, 22);
 }
-.languages:hover {
-  -ms-transform: scale(0.9); /* IE 9 */
-  -webkit-transform: scale(0.9); /* Safari 3-8 */
-  transform: scale(0.9);
-  background-color: hsl(hue, saturation, lightness);
+.sites:hover .image {
+  opacity: 0.3;
+}
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.sites:hover .overlay{
+  opacity: 1;
 }
 
-.text {
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  color: black;
-  border-radius: 1em;
-  box-shadow: 5px 10px 8px #888888;
+.text2 {
+  position:absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:rgb(105, 105, 199);
+  font-size: 2em;
+
+}
+.text{
+  color: #ffff;
+}
+.overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:opacity 500ms ease-in-out;
 }
 ul {
   list-style-type: none;
@@ -328,4 +280,38 @@ ul {
 p {
   font-size: 12px;
 }
+
+.contained{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        margin: 20px;
+    }
+    .box{
+        width: 100%;
+        height: 100%;            
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;  /* for demo purpose  */
+    }
+    .stack-top{
+        z-index: 9;
+        margin: 20px; /* for demo purpose  */
+    }
+    .stack-top2{
+        z-index: 9;
+        margin: 40px; /* for demo purpose  */
+        color: rgb(7, 7, 7);
+    }
+
+    .lists{
+      color: rgb(105, 105, 199);
+    }
+
+    .projects{
+      background-color:black;
+      /* background-image: linear-gradient(to bottom, rgb(102, 98, 98), rgb(202, 202, 240)); */
+    }
+
 </style>
