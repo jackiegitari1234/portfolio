@@ -136,7 +136,7 @@
             <div class="col-md-4">
               <br><br>
               <h5> Work in Progress </h5>
-              checkout my github account for more projects <br>
+              Checkout my github account for more projects <br>
             </div>
             <div class="col-md-5"></div>
             <div class="col-md-3  ">
