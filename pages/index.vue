@@ -20,8 +20,8 @@
       <div class="row darknav text-center pt-5 ">
         <div class="col-md-5 mt-5 pt-5">
           <h4 class="secondHeader pt-3">Hi, I'm Jackline Gitari</h4>
-          <h2 class="secondHeader2">Full-Stack Software engineer.</h2>
-          <div class="ml-5 mt-5">
+          <h1 class="secondHeader2">Full-Stack Software engineer.</h1>
+          <div class="ml-5 mt-3">
             <video width="320" height="240" autoplay="autoplay" muted>
             <source src="~/assets/vidd2.mp4" type=video/mp4>
             </video>
@@ -34,19 +34,20 @@
     </div>
 
     <div class="row coding p-2 ">
-      <div class="col-md-4 p-5 ml-5">
-        <div class="contained ml-5 mt-5">
-          <div class="box p-2" style="background: rgb(4, 4, 71);">
+      <div class="col-md-4 pt-5  d-none d-md-block">
+        <div class="contained  mt-5">
+          <div class="box" style="background: rgb(4, 4, 71);">
           </div>
-          <div class="box stack-top p-2" style="background: rgb(28, 28, 214);">
+          <div class="box stack-top" style="background: rgb(28, 28, 214);">
           </div>
-          <div class="box stack-top2 p-2 text-center" style="background: rgb(60, 60, 194);">
+          <div class="box stack-top2  text-center" style="background: rgb(60, 60, 194);">
             <br><br><br>
             About <br> Jackline Gitari
           </div>
         </div>
       </div>
-      <div class="col-6 mt-5 mb-3 pt-4 pb-2 text-left text">
+      <div class="col-md-1"></div>
+      <div class="col-md-7 col-12 mt-5 mb-3 pt-4 pb-2 text-left text">
             Software Developer with experience in Java, Java Spring Boot, PHP and Angular, CSS 3 and HTML 5.
           <br /><br />
             Graduate of Bachelor of science (Information and communication
@@ -60,7 +61,7 @@
         
         <div class="row coding skills justify-content-center"> 
           <div class="col-md-12 text-start"> <h5 class="lists">Skills:</h5></div>
-          <div class="col-md-6">
+          <div class="col-6">
             <i > 
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Java <br/>
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> PHP <br/>
@@ -72,11 +73,10 @@
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Angular <br/>
             </i>
           </div>
-          <div class="col-md-6">
+          <div class="col-6">
             <i >
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Git <br/>
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Amazon web services <br/>
-              <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Postgres & MySQL <br/>
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Postgres & MySQL <br/>
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Bootstrap <br/>
               <font-awesome-icon :icon="['fas', 'check']" class="lists"/> Material Design <br/>
@@ -112,7 +112,7 @@
           </div>
         </div>
 
-        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-3 p-5">
+        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-5 p-5">
           <div class="row">
             <div class="col-md-4">
               <br><br>
@@ -131,7 +131,7 @@
           </div>
         </div>
 
-        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-3 p-5">
+        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-5 p-5">
             <div class="row">
             <div class="col-md-4">
               <br><br>
