@@ -112,6 +112,25 @@
           </div>
         </div>
 
+        <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-5 pt-5 pl-5 pr-5">
+          <div class="row">
+            <div class="col-md-4">
+              <br><br>
+              <h5> Credit Card Design </h5>
+              Built using VUEJS <br>
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-5 sites ">
+              <img class="image" src="~/assets/coll.jpg" width="100%" height="100%" />
+              <div class="overlay">
+                <span class="text2"> 
+                  <a href="https://credit-card-design.herokuapp.com/" > Visit Website</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="col-md-10 col-8  text-end justify-content-end myprojects mb-5 p-5">
           <div class="row">
             <div class="col-md-4">
@@ -121,12 +140,8 @@
             </div>
             <div class="col-md-3"></div>
             <div class="col-md-5 sites ">
-              <img class="image" src="~/assets/mee.png" width="100%" height="100%" />
-              <div class="overlay">
-                <span class="text2">
-                  <a href="http://jackline.herokuapp.com/" > Visit Website</a>
-                </span>
-              </div>
+              <img class="image2" src="~/assets/mee.png" width="100%" height="100%" />
+              
             </div>
           </div>
         </div>
