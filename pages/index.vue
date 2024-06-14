@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="col-md-6 justify-content-end">
-          <img src="~/assets/me3.jpg" width="70%" height="100%" />
+          <img src="./assets/me3.jpg" width="70%" height="100%" />
         </div>
       </div>
     </div>
