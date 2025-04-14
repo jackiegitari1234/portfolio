@@ -3,7 +3,7 @@
     <!-- small device -->
     <div class="row darknav text-center d-md-none pt-2">
       <div class="col-md-6">
-        <img src="~/assets/me3.jpg" width="70%" height="100%" />
+        <img src="/assets/me3.jpg" width="70%" height="100%" />
       </div>
       <div class="col-md-6 mt-5 pt-5">
         <h6 class="secondHeader pt-3">Hi, I'm Jackline Gitari</h6>
